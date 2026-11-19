@@ -38,5 +38,5 @@ header .role { background: linear-gradient(90deg, #e58cff, #b98cff, #7fd3ff); -w
 header .avatar { border-color: #1a0f22; box-shadow: 0 0 0 3px #b25cff, 0 10px 40px rgba(178,92,255,.45); }
 @media (max-width: 700px) { header { justify-content: center; } }
 /* Wave cover: show the whole 16:9 image */
-header { background: #3a1a4d url("cover.jpg") center / cover no-repeat; aspect-ratio: 16 / 9; min-height: 0; max-height: none; padding: 3rem max(1.5rem, 8vw); }
+header { background: #3a1a4d url("vecteezy_abstract-purple-wave-background-with-flowing-lines-and_85188527.jpg") center / cover no-repeat; aspect-ratio: 16 / 9; min-height: 0; max-height: none; padding: 3rem max(1.5rem, 8vw); }
 @media (max-width: 900px) { header { aspect-ratio: auto; min-height: 80vh; } }
