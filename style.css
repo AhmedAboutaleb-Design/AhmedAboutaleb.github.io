@@ -40,3 +40,7 @@ header .avatar { border-color: #1a0f22; box-shadow: 0 0 0 3px #b25cff, 0 10px 40
 /* Wave cover: show the whole 16:9 image */
 header { background: #3a1a4d url("vecteezy_abstract-purple-wave-background-with-flowing-lines-and_85188527.jpg") center / cover no-repeat; aspect-ratio: 16 / 9; min-height: 0; max-height: none; padding: 3rem max(1.5rem, 8vw); }
 @media (max-width: 900px) { header { aspect-ratio: auto; min-height: 80vh; } }
+/* Buttons: frosted glass to suit the wave cover */
+header .links a { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.35); color: #fff;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); transition: background .2s, color .2s; }
+header .links a:hover { background: #fff; color: #3a1a4d; filter: none; }
