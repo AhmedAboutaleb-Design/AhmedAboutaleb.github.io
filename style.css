@@ -4,3 +4,15 @@ nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
 header { text-align: center; padding: 5rem 1rem; background: #f4f4f4; }
 section { max-width: 800px; margin: auto; padding: 3rem 1rem; }
 h2 { border-bottom: 2px solid #111; padding-bottom: .5rem; }
+:root { --accent: #4a7c3a; }
+header h1 { margin: 0; font-size: 3rem; }
+header .role { color: var(--accent); font-size: 1.4rem; font-weight: 600; margin: .25rem 0 1rem; }
+a { color: var(--accent); }
+nav a { color: #fff; }
+.jobs { list-style: none; padding: 0; }
+.jobs li { display: grid; grid-template-columns: 1fr auto; gap: 0 1rem; padding: .6rem 0; border-bottom: 1px solid #eee; }
+.jobs li span { grid-column: 1; color: #555; }
+.jobs li em { grid-column: 2; grid-row: 1 / span 2; align-self: center; color: var(--accent); white-space: nowrap; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } nav a { margin: 0 .4rem; } }
+footer { text-align: center; padding: 2rem; color: #888; }
